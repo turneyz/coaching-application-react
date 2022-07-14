@@ -1,24 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 
+const users = [
+  { name: "Randy Cox", id: 1 },
+  { name: "Cody Thaller", id: 2 },
+  { name: "Michelle Hoelzer", id: 3 }
+];
+
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h3>User names</h3>
+      <ul></ul>
+    </>
   );
 }
 
