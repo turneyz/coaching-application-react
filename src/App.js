@@ -1,19 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 
-const users = [
-  { name: "Randy Cox", id: 1 },
-  { name: "Cody Thaller", id: 2 },
-  { name: "Michelle Hoelzer", id: 3 }
-];
-
-
 function App() {
+
+  const users = [
+    { name: "Randy Cox", id: 1 },
+    { name: "Cody Thaller", id: 2 },
+    { name: "Michelle Hoelzer", id: 3 }
+  ];
+
   return (
-    <>
-      <h3>User names</h3>
+    <div>
+      <h1>User names</h1>
       <ul></ul>
-    </>
+    </div>
   );
 }
 
