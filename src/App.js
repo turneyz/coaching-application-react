@@ -7,11 +7,15 @@ function App() {
     { name: "Cody Thaller", id: 2 },
     { name: "Michelle Hoelzer", id: 3 }
   ];
+  const userInfo = users.map((user) =>
+   <li> {user.name} </li>)
 
   return (
     <div>
       <h1>User names</h1>
-      <ul></ul>
+      <ul>
+        {userInfo}
+      </ul>
     </div>
   );
 }
